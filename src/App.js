@@ -14,6 +14,8 @@ import ScrollToTop from "./utilities/ScrollToTop";
 import Contactus from "./pagesEng/contactus/Contactus";
 import Aboutus from "./pagesEng/aboutus/Aboutus";
 import HomeEng from "./pagesEng/home/HomeEng";
+import Contribuir from "./pages/contribuir/Contribuir";
+import Atividades from "./pages/atividades/Atividades";
 
 function App() {
   return (
@@ -25,6 +27,12 @@ function App() {
         </Route>
         <Route path="/contactanos">
           <Contactanos/>
+        </Route>
+        <Route path="/contribuir">
+          <Contribuir/>
+        </Route>
+        <Route path="/atividades">
+          <Atividades/>
         </Route>
         <Route path="/fr">
           <HomeFr/>

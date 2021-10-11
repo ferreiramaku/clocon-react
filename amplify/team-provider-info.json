@@ -1,0 +1,20 @@
+{
+  "dev": {
+    "awscloudformation": {
+      "AuthRoleName": "amplify-cloconreact-dev-103142-authRole",
+      "UnauthRoleArn": "arn:aws:iam::737448695477:role/amplify-cloconreact-dev-103142-unauthRole",
+      "AuthRoleArn": "arn:aws:iam::737448695477:role/amplify-cloconreact-dev-103142-authRole",
+      "Region": "eu-west-3",
+      "DeploymentBucketName": "amplify-cloconreact-dev-103142-deployment",
+      "UnauthRoleName": "amplify-cloconreact-dev-103142-unauthRole",
+      "StackName": "amplify-cloconreact-dev-103142",
+      "StackId": "arn:aws:cloudformation:eu-west-3:737448695477:stack/amplify-cloconreact-dev-103142/aa97f510-2a6d-11ec-b48a-0afabf21c8aa",
+      "AmplifyAppId": "d3hpruqdljczv2"
+    },
+    "categories": {
+      "auth": {
+        "cloconreacta609a924": {}
+      }
+    }
+  }
+}

@@ -20,10 +20,10 @@ const NavbarPages = () => {
 						<Link to="/quemsomos" className="nav-link">Quem somos</Link>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#iniciativas" className="nav-link">Áreas de atividade</a>
+						<Link to="/atividades" className="nav-link">Áreas de atividade</Link>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#colaborar" className="nav-link">Como contribuir</a>
+						<Link to="/contribuir" className="nav-link">Como contribuir</Link>
 					</li>
 					<li className="nav-item text-center">
 						<a href="#blog" className="nav-link">Blog</a>
