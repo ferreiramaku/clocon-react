@@ -1,0 +1,23 @@
+@media (max-width:576px) {
+    .logo {
+        width: 70%;
+    }
+    .navbar-toggler{
+        width: 35px;
+        height: 30px;
+    }
+
+    .navbar-toggler-icon{
+        width: 25px;
+        height: 20px;
+        padding: 0;
+        position: absolute;
+        right: 17px;
+        top: 32px;
+    }
+   
+} 
+
+.nav-hr{
+    border-bottom: 0.5px solid rgba(221, 221, 221, .2);
+}

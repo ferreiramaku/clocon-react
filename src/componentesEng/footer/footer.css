@@ -1,0 +1,9 @@
+.decoration {
+    text-decoration: none;
+    color:antiquewhite;
+}
+
+.decoration:hover {
+    text-decoration: none;
+    color:antiquewhite;
+}

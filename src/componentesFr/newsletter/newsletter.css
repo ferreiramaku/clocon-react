@@ -1,0 +1,9 @@
+.cor-fundo-1{
+    background-color: #548EC8;
+}
+
+@media (min-width:768px) {
+    .news-input {
+        width: 50%;
+    }
+}

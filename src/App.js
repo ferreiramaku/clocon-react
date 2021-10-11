@@ -1,24 +1,54 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import Home from "./pages/home/Home";
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route
+} from "react-router-dom";
+import Quemsomos from "./pages/quemsomos/Quemsomos";
+import Contactanos from "./pages/contactanos/Contactanos";
+import HomeFr from "./pagesFr/home/HomeFr";
+import Quisommesnous from "./pagesFr/quemsomos/Quisommesnous";
+import Nouscontacter from "./pagesFr/contactanos/Nouscontacter";
+import ScrollToTop from "./utilities/ScrollToTop";
+import Contactus from "./pagesEng/contactus/Contactus";
+import Aboutus from "./pagesEng/aboutus/Aboutus";
+import HomeEng from "./pagesEng/home/HomeEng";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <ScrollToTop/>
+      <Switch>
+        <Route path="/quemsomos">
+          <Quemsomos/>
+        </Route>
+        <Route path="/contactanos">
+          <Contactanos/>
+        </Route>
+        <Route path="/fr">
+          <HomeFr/>
+        </Route>
+        <Route path="/quisommesnous">
+          <Quisommesnous/>
+        </Route>
+        <Route path="/nouscontacter">
+          <Nouscontacter/>
+        </Route>
+        <Route path="/aboutus">
+          <Aboutus/>
+        </Route>
+        <Route path="/contactus">
+          <Contactus/>
+        </Route>
+        <Route path="/eng">
+          <HomeEng/>
+        </Route>
+        <Route path="/">
+          <Home/>
+        </Route>
+      </Switch>
+    </Router>
   );
 }
 
