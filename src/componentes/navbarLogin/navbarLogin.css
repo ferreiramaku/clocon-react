@@ -1,8 +1,7 @@
 @media (max-width:576px) {
     .logo {
-        width: 66%;
+        width: 70%;
     }
-    
     .navbar-toggler{
         width: 35px;
         height: 30px;
@@ -16,13 +15,19 @@
         right: 17px;
         top: 32px;
     }
-
-    nav{
-        max-width: 100%;
-    }
    
 } 
 
 .nav-hr{
     border-bottom: 0.5px solid rgba(221, 221, 221, .2);
+}
+
+.liga {
+    text-decoration: none;
+    color:inherit;
+}
+
+.liga:hover {
+    text-decoration: none;
+    color:inherit;
 }

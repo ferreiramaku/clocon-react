@@ -1,3 +1,8 @@
 .marcador_escondido{
     visibility:hidden;
 }
+
+.vid{
+    width: 100%;
+     max-width: 560px;
+}

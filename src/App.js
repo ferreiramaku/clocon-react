@@ -16,6 +16,8 @@ import Aboutus from "./pagesEng/aboutus/Aboutus";
 import HomeEng from "./pagesEng/home/HomeEng";
 import Contribuir from "./pages/contribuir/Contribuir";
 import Atividades from "./pages/atividades/Atividades";
+import Login from "./pages/login/Login";
+
 
 function App() {
   return (
@@ -51,6 +53,9 @@ function App() {
         </Route>
         <Route path="/eng">
           <HomeEng/>
+        </Route>
+        <Route path="/login">
+          <Login/>
         </Route>
         <Route path="/">
           <Home/>

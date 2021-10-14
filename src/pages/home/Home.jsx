@@ -12,7 +12,7 @@ import Footer from "../../componentes/footer/Footer";
 
 function Home() {
     return (
-      <div className="App">
+      <div>
         <Navbar/>
         <Showcase/>
         <Newsletter/>

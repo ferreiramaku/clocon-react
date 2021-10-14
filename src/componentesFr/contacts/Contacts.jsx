@@ -26,7 +26,7 @@ const Contacts = () => {
                                 </svg> : diasporasantomeennecloconpovo@gmail.com
                             </li>
                         </ul>
-                        <img src="images/mapa.jpg" className="mt-3" alt=""/>
+                        <img src="images/mapa.jpg" className="mt-3 mapa-dim" alt=""/>
                     </div>
 
                     <div className="col-md">

@@ -1,7 +1,7 @@
-import './navbar.css';
 import { Link } from 'react-router-dom';
+import './navbarLogin.css';
 
-const Navbar = () => {
+const NavbarPages = () => {
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top nav-hr ">
 		<div className="container">
@@ -17,29 +17,26 @@ const Navbar = () => {
 			<div className="collapse navbar-collapse" id="navmenu">
 				<ul className="navbar-nav ms-auto">
 					<li className="nav-item text-center">
-						<a href="#quemsomos" className="nav-link">Quem somos</a>
+						<Link to="/quemsomos" className="nav-link">Quem somos</Link>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#iniciativas" className="nav-link">Áreas de atividade</a>
+						<Link to="/atividades" className="nav-link">Áreas de atividade</Link>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#colaborar" className="nav-link">Como contribuir</a>
+						<Link to="/contribuir" className="nav-link">Como contribuir</Link>
 					</li>
 					<li className="nav-item text-center">
 						<a href="#blog" className="nav-link">Blog</a>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#contactos" className="nav-link">Contacta-nos</a>
+						<Link to="/contactanos" className="nav-link">Contacta-nos</Link>
 					</li>
 					<li className="nav-item text-center">
-						<Link to="/fr" className="nav-link liga"><img src="images/france-flag.png"  alt="" title="Version Française"/></Link>
+						<Link to="/fr" className="nav-link"><img src="images/france-flag.png"  alt="" title="Version Française"/></Link>
 					</li>
 					<li className="nav-item text-center">
-						<Link to="/eng" className="nav-link liga"><img src="images/united-kingdom-flag.png"  alt="" title="English Version"/></Link>
+					<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version"/></Link>
 					</li>
-					<li className="nav-item text-center">
-						<Link to="/login" className="nav-link">Login</Link>
-					</li>	
 				</ul>
 			</div>
 		</div>
@@ -47,4 +44,4 @@ const Navbar = () => {
     );
 }
 
-export default Navbar;
+export default NavbarPages;
