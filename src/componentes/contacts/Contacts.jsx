@@ -1,6 +1,21 @@
 import './contacts.css';
+import emailjs from 'emailjs-com';
+import { useRef } from 'react';
 
 const Contacts = () => {
+    const form = useRef();
+    const sendEmail = (e) => {
+        e.preventDefault();
+
+        emailjs.sendForm('cloconMessage', 'template_ywe27hs', form.current, 'user_T9KziHzx2loqJ0rpXnAY0')
+        .then((result) => {
+            alert('Mensagem enviada com sucesso! :)');
+        }, (error) => {
+            alert(error.message);
+        });
+        e.target.reset();
+    };
+
     return (
         <section  className="p-5 mt-5 mb-4">
             <div className="container">
@@ -33,21 +48,21 @@ const Contacts = () => {
                     <div className="col-md">
                         <h2 className="text-center mb-3">Formulário de contacto</h2>
                         <hr/>
-                        <form id="contactForm" className="pt-5">
+                        <form id="contactForm" className="pt-5" onSubmit={sendEmail} ref={form}>
 
                             <div className="mb-4">
                                 <label className="form-label fw-bold" htmlFor="name">Nome:</label>
-                                <input className="form-control" id="name" type="text" placeholder="Nome" data-sb-validations="required" />
+                                <input className="form-control" id="name" type="text" placeholder="Nome" data-sb-validations="required" name="name" />
                             </div>
                         
                             <div className="mb-4">
                                 <label className="form-label fw-bold" htmlFor="emailAddress">Email:</label>
-                                <input className="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" />
+                                <input className="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" name="email" />
                             </div>
                         
                             <div className="mb-4">
                                 <label className="form-label fw-bold" htmlFor="message">Mensagem:</label>
-                                <textarea className="form-control" id="message" type="text" placeholder="Mensagem" style={{height: '10rem'}} data-sb-validations="required"></textarea>
+                                <textarea className="form-control" id="message" type="text" placeholder="Mensagem" style={{height: '10rem'}} data-sb-validations="required" name="message"></textarea>
                             </div>
                         
                             <div className="d-grid">
