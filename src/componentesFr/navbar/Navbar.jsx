@@ -17,22 +17,25 @@ const Navbar = () => {
 							<a href="#quemsomos" className="nav-link">Qui sommes-nous</a>
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#iniciativas" className="nav-link">Domaines d'activité</a>
+							<a href="#iniciativas" className="nav-link">Activités</a>
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#colaborar" className="nav-link">Comment contribuer</a>
+							<a href="#colaborar" className="nav-link">Contribuer</a>
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#blog" className="nav-link">Blog</a>
+							<a href="#blog" className="nav-link">Blog</a> 
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#contactos" className="nav-link">Nous contacter</a>
+							<a href="#contactos" className="nav-link">Contacts</a>
 						</li>
 						<li className="nav-item  text-center">
-							<Link to="/" className="nav-link"><img src="images/portuguese-flag.png" alt="" title="Versão Portuguesa"/></Link>
+							<Link to="/" className="nav-link"><img src="images/portuguese-flag.png" alt="" title="Versão Portuguesa" className="liga" /></Link>
 						</li>
 						<li className="nav-item  text-center">
-							<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version"/></Link>
+							<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version" className="liga" /></Link>
+						</li>
+						<li className="nav-item text-center">
+							<Link to="/login" className="nav-link">Login</Link>  
 						</li>
 					</ul>
 				</div>

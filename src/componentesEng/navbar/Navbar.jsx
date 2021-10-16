@@ -11,7 +11,7 @@ const Navbar = () => {
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 					<span className="navbar-toggler-icon"></span>
 				</button>
-				<div className="collapse navbar-collapse" id="navmenu">
+				<div className="collapse navbar-collapse" id="navmenu"> 
 					<ul className="navbar-nav ms-auto">
 						<li className="nav-item text-center">
 							<a href="#quemsomos" className="nav-link">About us</a>
@@ -20,7 +20,7 @@ const Navbar = () => {
 							<a href="#iniciativas" className="nav-link">What we do</a>
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#colaborar" className="nav-link">How to contribute</a>
+							<a href="#colaborar" className="nav-link">Contribute</a>
 						</li>
 						<li className="nav-item  text-center">
 							<a href="#blog" className="nav-link">Blog</a>
@@ -29,12 +29,15 @@ const Navbar = () => {
 							<a href="#contactos" className="nav-link">Contact us</a>
 						</li>
 						<li className="nav-item text-center">
-							<Link to="/" className="nav-link"><img src="images/portuguese-flag.png" alt="" title="Versão Portuguesa"/></Link>
+							<Link to="/" className="nav-link"><img src="images/portuguese-flag.png" alt="" title="Versão Portuguesa" className="liga" /></Link>
 						</li>
 						<li className="nav-item text-center">
-							<Link to="/fr" className="nav-link"><img src="images/france-flag.png" alt="" title="Version Française"/></Link>
+							<Link to="/fr" className="nav-link"><img src="images/france-flag.png" alt="" title="Version Française" className="liga" /></Link>
 						</li>
-					</ul>
+						<li className="nav-item text-center">
+							<Link to="/login" className="nav-link">Login</Link> 
+						</li>
+					</ul> 
 				</div>
 			</div>
 		</nav>

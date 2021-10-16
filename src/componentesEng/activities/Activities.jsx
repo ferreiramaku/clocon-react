@@ -2,13 +2,15 @@ import './activities.css';
 
 const Activities = () => {
     return (
-		<section className="p-5">
-			<h2 className="text-center">Areas of activity</h2>
+		<section className="p-5">	
 			<div className="container">
+				<h2 className="text-center">Areas of activity</h2>
 				<hr/>
-				<div className="row text-center g-4 mt-3">
-					<div className="col-md">
-						<div className="card bg-fundo-3 text-dark" style={{height: '20rem'}}>
+
+				<div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4 mt-3">
+
+					<div class="col ">
+						<div className="card bg-fundo-3 text-dark">
 							<div className="card-body text-center">
 								<div className="h1 mb-3">
 									<i className="bi bi-easel"></i>
@@ -24,8 +26,9 @@ const Activities = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md">
-						<div className="card bg-fundo-5 text-dark" style={{height: '20rem'}}>
+
+					<div class="col ">
+						<div className="card bg-fundo-5 text-dark">
 							<div className="card-body text-center">
 								<div className="h1 mb-3">
 									<i className="bi bi-file-bar-graph"></i>
@@ -42,8 +45,9 @@ const Activities = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md">
-						<div className="card bg-fundo-3 text-dark" style={{height: '20rem'}}>
+
+					<div class="col ">
+						<div className="card bg-fundo-3 text-dark">
 							<div className="card-body text-center">
 								<div className="h1 mb-3">
 									<i className="bi bi-people"></i>
@@ -59,10 +63,9 @@ const Activities = () => {
 							</div>
 						</div>
 					</div>
-				</div>
-				<div className="row text-center g-4 mt-2">
-					<div className="col-md">
-						<div className="card bg-fundo-5 text-dark" style={{height: '20rem'}}>
+				
+					<div class="col ">
+						<div className="card bg-fundo-5 text-dark">
 							<div className="card-body text-center">
 								<div className="h1 mb-3">
 									<i className="bi bi-music-note-list"></i>
@@ -79,8 +82,9 @@ const Activities = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md">
-						<div className="card bg-fundo-3 text-dark" style={{height: '20rem'}}>
+
+					<div class="col ">
+						<div className="card bg-fundo-3 text-dark">
 							<div className="card-body text-center">
 								<div className="h1 mb-3">
 									<i className="bi bi-trophy"></i>
@@ -97,8 +101,9 @@ const Activities = () => {
 							</div>
 						</div>
 					</div>
-					<div className="col-md">
-						<div className="card bg-fundo-5 text-dark" style={{height: '20rem'}}>
+
+					<div class="col ">
+						<div className="card bg-fundo-5 text-dark">
 							<div className="card-body text-center">
 								<div className="h1 mb-3">
 									<i className="bi bi-lightbulb"></i>
@@ -116,6 +121,7 @@ const Activities = () => {
 							</div>
 						</div>
 					</div>
+
 				</div>
 			</div>
 		</section>

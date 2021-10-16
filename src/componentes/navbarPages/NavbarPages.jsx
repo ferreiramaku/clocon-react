@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './navbarPages.css';
 
-const NavbarPages = () => {
+const NavbarPages = () => { 
     return (
         <nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top nav-hr ">
 		<div className="container">
@@ -20,22 +20,25 @@ const NavbarPages = () => {
 						<Link to="/quemsomos" className="nav-link">Quem somos</Link>
 					</li>
 					<li className="nav-item text-center">
-						<Link to="/atividades" className="nav-link">Áreas de atividade</Link>
+						<Link to="/atividades" className="nav-link">Atividade</Link>
 					</li>
 					<li className="nav-item text-center">
-						<Link to="/contribuir" className="nav-link">Como contribuir</Link>
+						<Link to="/contribuir" className="nav-link">Contribuir</Link>
 					</li>
 					<li className="nav-item text-center">
 						<a href="#blog" className="nav-link">Blog</a>
 					</li>
 					<li className="nav-item text-center">
-						<Link to="/contactanos" className="nav-link">Contacta-nos</Link>
+						<Link to="/contactanos" className="nav-link">Contactos</Link>
 					</li>
 					<li className="nav-item text-center">
-						<Link to="/fr" className="nav-link"><img src="images/france-flag.png"  alt="" title="Version Française"/></Link>
+						<Link to="/fr" className="nav-link"><img src="images/france-flag.png"  alt="" title="Version Française" className="liga" /></Link>
 					</li>
 					<li className="nav-item text-center">
-					<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version"/></Link>
+						<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version" className="liga" /></Link>
+					</li>
+					<li className="nav-item text-center">
+						<Link to="/login" className="nav-link">Login</Link> 
 					</li>
 				</ul>
 			</div>

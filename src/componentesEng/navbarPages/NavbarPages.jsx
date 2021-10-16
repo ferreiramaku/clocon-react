@@ -20,7 +20,7 @@ const NavbarPages = () => {
 							<a href="#iniciativas" className="nav-link">What we do</a>
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#colaborar" className="nav-link">How to contribute</a>
+							<a href="#colaborar" className="nav-link">Contribute</a>
 						</li>
 						<li className="nav-item  text-center">
 							<a href="#blog" className="nav-link">Blog</a>
@@ -33,6 +33,9 @@ const NavbarPages = () => {
 						</li>
 						<li className="nav-item text-center">
 							<Link to="/fr" className="nav-link"><img src="images/france-flag.png"  alt="" title="Version Française"/></Link>
+						</li>
+						<li className="nav-item text-center">
+							<Link to="/login" className="nav-link">Login</Link> 
 						</li>
 					</ul>
 				</div>

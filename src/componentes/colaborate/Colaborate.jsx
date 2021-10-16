@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import './colaborate.css';
 
-const Colaborate = () => {
+const Colaborate = () => { 
     return (
         <section  className="mt-5 p-5 bg-fundo-2 text-light text-center text-sm-start">
             <div className="container">		
@@ -31,7 +31,7 @@ const Colaborate = () => {
                     </div>
                     
                     <div>
-                        <img src="images/man_1.png" alt="" className="img-fluid d-none d-sm-block" />
+                        <img src="images/man_1.png" alt="" className="img-fluid d-none d-xl-block" /> 
                     </div>
                 </div>
             </div>

@@ -21,3 +21,19 @@
 .nav-hr{
     border-bottom: 0.5px solid rgba(221, 221, 221, .2);
 }
+
+@media (max-width:1415px) {
+    .nav-link{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1215px) {
+    .logo {
+        width: 80%;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+
+} 

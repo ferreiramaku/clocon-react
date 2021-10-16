@@ -4,6 +4,25 @@
 
 @media (min-width:768px) {
     .news-input {
-        width: 50%;
+        max-width: 100%;
+    }
+}
+
+
+@media (max-width: 1438px) {
+    h3{
+        font-size: 24px;
+    }
+}
+
+@media (max-width: 1259px) {
+    h3{
+        font-size: 19px;
+    }
+}
+
+@media (max-width: 1036px) {
+    h3{
+        font-size: 15px;
     }
 }

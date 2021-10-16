@@ -17,4 +17,4 @@ const Atividades = () => {
     );
 }
 
-export default Atividades;
+export default Atividades; 

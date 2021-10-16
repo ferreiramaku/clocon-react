@@ -4,7 +4,7 @@ const Colaborate = () => {
     return (
         <section className="mt-5 p-5 bg-fundo-2 text-light text-center text-sm-start">
             <div className="container" id="colaborar">
-                <div className="d-sm-flex align-items-center justify-content-between p-0">
+                <div className="d-sm-flex align-items-center justify-content-between">
                     <div>
                         <h2>Comment contribuer?</h2>
                         <h5 className="mt-4 text-warning">Les dons</h5>
@@ -31,7 +31,7 @@ const Colaborate = () => {
                     </div>
                     
                     <div>
-                        <img src="images/man_1.png" alt="" className="img-fluid d-none d-sm-block p-0"/>
+                        <img src="images/man_1.png" alt="" className="img-fluid d-none d-xl-block"/>
                     </div>
                 </div>
             </div>

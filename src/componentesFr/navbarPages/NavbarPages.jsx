@@ -20,22 +20,25 @@ const NavbarPages = () => {
 						<Link to="/quisommesnous" className="nav-link">Qui sommes-nous</Link>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#iniciativas" className="nav-link">Domaines d'activité</a>
+						<a href="#iniciativas" className="nav-link">Activités</a>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#colaborar" className="nav-link">Comment contribuer</a>
+						<a href="#colaborar" className="nav-link">Contribuer</a>
 					</li>
 					<li className="nav-item text-center">
 						<a href="#blog" className="nav-link">Blog</a>
 					</li>
 					<li className="nav-item text-center">
-							<Link to="/nouscontacter" className="nav-link">Nous contacter</Link>
+							<Link to="/nouscontacter" className="nav-link">Contacts</Link>
 					</li>
 					<li className="nav-item text-center">
 						<Link to="/" className="nav-link"><img src="images/portuguese-flag.png"  alt="" title="Version Française"/></Link>
 					</li>
 					<li className="nav-item text-center">
 						<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version"/></Link>
+					</li>
+					<li className="nav-item text-center">
+							<Link to="/login" className="nav-link">Login</Link>  
 					</li>
 				</ul>
 			</div>

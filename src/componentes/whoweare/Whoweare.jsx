@@ -11,7 +11,7 @@ const Whoweare = () => {
                     <div className="col-md embed-responsive embed-responsive-4by3">
                         <iframe className="vid" max-width="560" height="315" src="https://www.youtube.com/embed/QqGpTnZvjsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div className="col-md p-5">
+                    <div className="col-md p-5"> 
                         
                         <p className="lead">
                             Descubra as razões pelas quais essa rede de associações existe.

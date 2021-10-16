@@ -17,8 +17,8 @@ const Quemsomos = () => {
                 <hr/>
                 <div className="row align-items-center justify-content-between pt-4">
                     <div className="col-md embed-responsive embed-responsive-4by3">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/QqGpTnZvjsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                    </div>
+                        <iframe className="vid" max-width="560" height="315" src="https://www.youtube.com/embed/QqGpTnZvjsg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                    </div> 
                     <div className="col-md">
                         <p>A associação Clóçon Pôvô foi criada com o intuito de:</p>
                         <ul>
@@ -31,7 +31,7 @@ const Quemsomos = () => {
                         </ul>
                     </div>
                 </div>
-                <div className="row mb-3  p-4">
+                <div className="row mb-3  p-4"> 
                     <div className="col">
                         <ul>
                             <li type="circle" className="mb-2">Incentivar as parcerias de negócios.</li>

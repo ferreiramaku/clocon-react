@@ -10,16 +10,16 @@ const Showcase3 = () => {
 
                     <div>
                         <h4>Bem-vindo(a) ao website da</h4>
-                        <h1 className="text-warning">Clóçon Pôvô</h1>
+                        <h1 className="text-warning">Clóçon Pôvô</h1> 
                         <p className="lead my-4">A Clóçon Pôvô é uma rede internacional de associações de são-tomenses em todo o mundo. 
                             O nosso objetivo central é o de unir, fortalecer e empoderar os são-tomenses.
                         </p>
                         <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Adira já!</button>
                     </div>
 
-                    <img className="img-fluid w-50 d-none d-sm-block" src="images/mulher_1.png" alt="" /> 
+                    <img className="img-fluid w-50 d-none d-md-block" src="images/mulher_1.png" alt="" /> 
 
-                </div>
+                </div> 
             </div>
 	    </section>
         <div className="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">

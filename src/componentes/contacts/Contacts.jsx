@@ -9,12 +9,12 @@ const Contacts = () => {
 
         emailjs.sendForm('cloconMessage', 'template_ywe27hs', form.current, 'user_T9KziHzx2loqJ0rpXnAY0')
         .then((result) => {
-            alert('Mensagem enviada com sucesso! :)');
+            alert('Message sent successfully! :)');
         }, (error) => {
             alert(error.message);
         });
         e.target.reset();
-    };
+    }; 
 
     return (
         <section  className="p-5 mt-5 mb-4">
@@ -42,7 +42,7 @@ const Contacts = () => {
                                 </svg> : diasporasantomeennecloconpovo@gmail.com
                             </li>
                         </ul>
-                        <img src="images/mapa.jpg" className="mt-3 mapa-dim" alt="" />
+                        <img src="images/mapa.jpg" className="mt-3 mapa-dim" alt="" /> 
                     </div>
 
                     <div className="col-md">
@@ -57,7 +57,7 @@ const Contacts = () => {
                         
                             <div className="mb-4">
                                 <label className="form-label fw-bold" htmlFor="emailAddress">Email:</label>
-                                <input className="form-control" id="emailAddress" type="email" placeholder="Email Address" data-sb-validations="required, email" name="email" />
+                                <input className="form-control" id="emailAddress" type="email" placeholder="Email" data-sb-validations="required, email" name="email" />
                             </div>
                         
                             <div className="mb-4">

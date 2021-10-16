@@ -7,3 +7,13 @@
     text-decoration: none;
     color:antiquewhite;
 }
+
+
+@media (max-width:1215px) {
+    .liga{
+        font-size: 12px;
+    }
+    .liga1{
+        font-size: 13px;
+    }
+}

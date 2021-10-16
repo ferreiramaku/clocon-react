@@ -11,7 +11,7 @@ const Contribuir = () => {
             <NavbarPages/>
             <Showcase4/>
             <Newsletter/>
-            <ColaboratePages/>
+            <ColaboratePages/>  
             <Footer/>
         </div>
     );

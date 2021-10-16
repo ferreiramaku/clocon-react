@@ -1,3 +1,11 @@
 .bg-fundo-2{
     background-color: #002245;
 }
+
+
+@media (max-width:1007px) {
+    .dim-1 {
+        visibility: hidden;
+    }
+   
+} 

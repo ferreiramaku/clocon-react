@@ -6,6 +6,7 @@ const Showcase = () => {
         <section className="bg-dark text-light p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
             <div className="container">
                 <div className="d-sm-flex align-items-center justify-content-between">
+
                     <div>
                         <h4>Bienvenue sur le site de</h4>
                         <h1 className="text-warning">Clóçon Pôvô</h1>
@@ -14,7 +15,8 @@ const Showcase = () => {
                         </p>
                         <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Adhérez maintenant!</button>
                     </div>
-                    <img className="img-fluid w-50 d-none d-sm-block" src="images/mulher_2.png" alt=""/> 
+
+                    <img className="img-fluid w-50 d-none d-md-block" src="images/mulher_2.png" alt=""/> 
 
                 </div>
             </div>

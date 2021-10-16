@@ -31,3 +31,18 @@
     text-decoration: none;
     color:inherit;
 }
+
+@media (max-width:1415px) {
+    .nav-link{
+        font-size: 14px;
+    }
+}
+
+@media (max-width:1215px) {
+    .logo {
+        width: 80%;
+    }
+    .nav-link{
+        font-size: 12px;
+    }
+}

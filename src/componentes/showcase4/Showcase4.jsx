@@ -17,7 +17,7 @@ const Showcase4 = () => {
                         <button className="btn btn-primary btn-lg" data-bs-toggle="modal" data-bs-target="#enroll">Adira já!</button>
                     </div>
 
-                    <img className="img-fluid w-50 d-none d-sm-block" src="images/man_1.png" alt="" /> 
+                    <img className="img-fluid w-50 d-none d-md-block" src="images/man_1.png" alt="" />  
 
                 </div>
             </div>
