@@ -17,6 +17,10 @@ import HomeEng from "./pagesEng/home/HomeEng";
 import Contribuir from "./pages/contribuir/Contribuir";
 import Atividades from "./pages/atividades/Atividades";
 import Login from "./pages/login/Login";
+import Activites from "./pagesFr/atividades/Atividades";
+import Contribuer from "./pagesFr/contribuir/Contribuir";
+import Activities from "./pagesEng/activities/Activities";
+import Contribute from "./pagesEng/contribuir/Contribuir";
 
 
 function App() {
@@ -42,13 +46,25 @@ function App() {
         <Route path="/quisommesnous">
           <Quisommesnous/>
         </Route>
+        <Route path="/contribuer">
+          <Contribuer/>
+        </Route>
         <Route path="/nouscontacter">
           <Nouscontacter/>
+        </Route>
+        <Route path="/activites">
+          <Activites/>
         </Route>
         <Route path="/aboutus">
           <Aboutus/>
         </Route>
-        <Route path="/contactus">
+        <Route path="/activities">
+          <Activities/>
+        </Route>
+        <Route path="/contribute">
+          <Contribute/>
+        </Route>
+        <Route path="/contactus"> 
           <Contactus/>
         </Route>
         <Route path="/eng">

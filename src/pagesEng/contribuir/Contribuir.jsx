@@ -1,20 +1,20 @@
-import './contactus.css';
+import './contribuir.css';
 import NavbarPages from "../../componentesEng/navbarPages/NavbarPages";
-import Showcase3 from "../../componentesEng/showcase3/Showcase3";
+import Showcase4 from "../../componentesEng/showcase4/Showcase4";
 import Newsletter from "../../componentesEng/newsletter/Newsletter";
-import Contacts from '../../componentesEng/contacts/Contacts';
+import ColaboratePages from "../../componentesEng/colaboratePages/ColaboratePages";
 import FooterPages from '../../componentesEng/footerPages/FooterPages';
 
-const Contactus = () => {
+const Contribuir = () => {
     return (
         <div>
             <NavbarPages/>
-            <Showcase3/>
+            <Showcase4/>
             <Newsletter/>
-            <Contacts/>
+            <ColaboratePages/>  
             <FooterPages/>
         </div>
     );
 }
 
-export default Contactus;
+export default Contribuir;

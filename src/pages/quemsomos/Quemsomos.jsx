@@ -2,7 +2,7 @@ import './quemsomos.css';
 import NavbarPages from "../../componentes/navbarPages/NavbarPages";
 import Showcase2 from "../../componentes/showcase2/Showcase2";
 import Newsletter from "../../componentes/newsletter/Newsletter";
-import Footer from "../../componentes/footer/Footer";
+import FooterPaginas from '../../componentes/footerPaginas/FooterPaginas';
 
 const Quemsomos = () => {
     return (
@@ -48,7 +48,7 @@ const Quemsomos = () => {
             </div>
         </section>
 
-        <Footer/>
+        <FooterPaginas/>
         </div>
     );
 }

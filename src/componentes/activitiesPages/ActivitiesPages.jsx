@@ -1,7 +1,14 @@
 import './activitiesPages.css';
+import Cidadania from './Cidadania';
+import Cultura from './Cultura';
+import Desporto from './Desporto';
+import Empreendedorismo from './Empreendedorismo';
+import Emprego from './Emprego';
+import Formacao from './Formacao';
 
 const ActivitiesPages = () => {
     return (
+        <>
         <section  className="p-5"> 
             
             <div className="container">
@@ -24,7 +31,7 @@ const ActivitiesPages = () => {
                                     Elaboramos para você um plano de desenvolvimento profissional de forma a maximizar o
                                     seu potencial e rendimento.
                                 </p>
-                                <a href="colaborate.html" className="btn btn-info">Leia mais</a>
+                                <a href="o.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#formacao">Leia mais</a>
                             </div>
                         </div>
                     </div> 
@@ -43,7 +50,7 @@ const ActivitiesPages = () => {
                                     lhe ajudará a identificar a sua área de atividade, a elaborar o seu plano de negócios, a gerir a sua empresa
                                     e a procurar financiamentos. 
                                 </p>
-                                <a href="colaborate.html" className="btn btn-secondary">Leia mais</a>
+                                <a href="o.html" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#empreendedorismo">Leia mais</a>
                             </div>
                         </div>
                     </div>
@@ -61,7 +68,7 @@ const ActivitiesPages = () => {
                                     A nossa bolsa de emprego está disponível para todos os nossos membros. Além disso, disponibilizaremos
                                     vários tipos de formações específicas para lhe ajudar a se preparar para as entrevistas e a negociar condições laborais.
                                 </p>
-                                <a href="colaborate.html" className="btn btn-info">Leia mais</a>
+                                <a href="o.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#emprego">Leia mais</a>
                             </div>
                         </div>
                     </div>
@@ -80,7 +87,7 @@ const ActivitiesPages = () => {
                                     pessoa, independentemente da sua origem. É essa a nossa aposta. Pretendemos promover a identidade cultural são-tomense.
                             
                                 </p>
-                                <a href="colaborate.html" className="btn btn-info">Leia mais</a>
+                                <a href="a.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#cultura">Leia mais</a>
                             </div>
                         </div>
                     </div>
@@ -98,7 +105,7 @@ const ActivitiesPages = () => {
                                     Pretendemos criar torneios/campeonatos desportivos ao nível local, regional, nacional e internacional.
                                     Para além dos benefícios do convívio intergeracional, também estaremos a descobrir e a promover novos valores e talentos.
                                 </p>
-                                <a href="colaborate.html" className="btn btn-secondary">Leia mais</a>
+                                <a href="a.html" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#desporto">Leia mais</a>
                             </div>
                         </div>
                     </div>
@@ -116,7 +123,7 @@ const ActivitiesPages = () => {
                                     Nessa área incluímos ações de cooperação, de solidariedade social, do reforço dos princípios e valores
                                     democráticos, da convivência pacífica, ordeira e saudável entre os cidadãos, da participação ativa em ações de desenvolvimento da nossa comunidade.
                                 </p>
-                                <a href="colaborate.html" className="btn btn-info">Leia mais</a>
+                                <a href="a.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#cidadania">Leia mais</a>
                                 <div id="colaborar" className="marcador_escondido"></div>
                             </div>
                         </div>
@@ -125,6 +132,14 @@ const ActivitiesPages = () => {
                 </div>
             </div>
 	    </section>
+        <Formacao/>
+        <Empreendedorismo/>
+        <Emprego/>
+        <Cultura/>
+        <Desporto/>
+        <Cidadania/>
+
+        </>
     );
 }
 

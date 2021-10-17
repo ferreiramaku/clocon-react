@@ -34,9 +34,6 @@ const Navbar = () => {
 						<li className="nav-item text-center">
 							<Link to="/fr" className="nav-link"><img src="images/france-flag.png" alt="" title="Version Française" className="liga" /></Link>
 						</li>
-						<li className="nav-item text-center">
-							<Link to="/login" className="nav-link">Login</Link> 
-						</li>
 					</ul> 
 				</div>
 			</div>

@@ -2,7 +2,7 @@ import './aboutus.css';
 import NavbarPages from "../../componentesEng/navbarPages/NavbarPages";
 import Showcase2 from "../../componentesEng/showcase2/Showcase2";
 import Newsletter from "../../componentesEng/newsletter/Newsletter";
-import Footer from "../../componentesEng/footer/Footer";
+import FooterPages from '../../componentesEng/footerPages/FooterPages';
 
 const Aboutus = () => {
     return (
@@ -46,7 +46,7 @@ const Aboutus = () => {
                     </div>
                 </div>
             </section>
-            <Footer/>
+            <FooterPages/>
         </div>
     );
 }

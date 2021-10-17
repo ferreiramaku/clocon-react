@@ -17,10 +17,10 @@ const NavbarPages = () => {
 							<Link to="/aboutus" className="nav-link">About us</Link>
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#iniciativas" className="nav-link">What we do</a>
+							<Link to="/activities" className="nav-link">What we do</Link>
 						</li>
 						<li className="nav-item  text-center">
-							<a href="#colaborar" className="nav-link">Contribute</a>
+							<Link to="/contribute" className="nav-link">Contribute</Link>
 						</li>
 						<li className="nav-item  text-center">
 							<a href="#blog" className="nav-link">Blog</a>
@@ -33,9 +33,6 @@ const NavbarPages = () => {
 						</li>
 						<li className="nav-item text-center">
 							<Link to="/fr" className="nav-link"><img src="images/france-flag.png"  alt="" title="Version Française"/></Link>
-						</li>
-						<li className="nav-item text-center">
-							<Link to="/login" className="nav-link">Login</Link> 
 						</li>
 					</ul>
 				</div>

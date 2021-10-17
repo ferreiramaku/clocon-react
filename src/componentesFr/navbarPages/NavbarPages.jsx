@@ -14,16 +14,16 @@ const NavbarPages = () => {
 				<span className="navbar-toggler-icon"></span>
 			</button>
 
-			<div className="collapse navbar-collapse" id="navmenu">
+			<div className="collapse navbar-collapse" id="navmenu"> 
 				<ul className="navbar-nav ms-auto">
 					<li className="nav-item text-center">
 						<Link to="/quisommesnous" className="nav-link">Qui sommes-nous</Link>
 					</li>
 					<li className="nav-item text-center">
-						<a href="#iniciativas" className="nav-link">Activités</a>
+						<Link to="/activites" className="nav-link">Activités</Link> 
 					</li>
 					<li className="nav-item text-center">
-						<a href="#colaborar" className="nav-link">Contribuer</a>
+						<Link to="/contribuer" className="nav-link">Contribuer</Link>  
 					</li>
 					<li className="nav-item text-center">
 						<a href="#blog" className="nav-link">Blog</a>
@@ -36,9 +36,6 @@ const NavbarPages = () => {
 					</li>
 					<li className="nav-item text-center">
 						<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version"/></Link>
-					</li>
-					<li className="nav-item text-center">
-							<Link to="/login" className="nav-link">Login</Link>  
 					</li>
 				</ul>
 			</div>

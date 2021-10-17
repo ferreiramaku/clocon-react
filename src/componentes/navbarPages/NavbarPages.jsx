@@ -20,7 +20,7 @@ const NavbarPages = () => {
 						<Link to="/quemsomos" className="nav-link">Quem somos</Link>
 					</li>
 					<li className="nav-item text-center">
-						<Link to="/atividades" className="nav-link">Atividade</Link>
+						<Link to="/atividades" className="nav-link">Atividades</Link>
 					</li>
 					<li className="nav-item text-center">
 						<Link to="/contribuir" className="nav-link">Contribuir</Link>
@@ -36,9 +36,6 @@ const NavbarPages = () => {
 					</li>
 					<li className="nav-item text-center">
 						<Link to="/eng" className="nav-link"><img src="images/united-kingdom-flag.png"  alt="" title="English Version" className="liga" /></Link>
-					</li>
-					<li className="nav-item text-center">
-						<Link to="/login" className="nav-link">Login</Link> 
 					</li>
 				</ul>
 			</div>

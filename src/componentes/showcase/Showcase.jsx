@@ -18,7 +18,7 @@ const Showcase = () => {
 
                     <img className="img-fluid w-50 d-none d-md-block" src="images/mulher_2.png" alt="" />  
 
-                </div>
+                </div> 
             </div>
 	    </section>  
         

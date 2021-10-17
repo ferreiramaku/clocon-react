@@ -2,8 +2,8 @@ import './contribuir.css';
 import NavbarPages from "../../componentes/navbarPages/NavbarPages";
 import Showcase4 from "../../componentes/showcase4/Showcase4";
 import Newsletter from "../../componentes/newsletter/Newsletter";
-import Footer from "../../componentes/footer/Footer";
 import ColaboratePages from "../../componentes/colaboratePages/ColaboratePages";
+import FooterPaginas from '../../componentes/footerPaginas/FooterPaginas';
 
 const Contribuir = () => {
     return (
@@ -12,7 +12,7 @@ const Contribuir = () => {
             <Showcase4/>
             <Newsletter/>
             <ColaboratePages/>  
-            <Footer/>
+            <FooterPaginas/>
         </div>
     );
 }
