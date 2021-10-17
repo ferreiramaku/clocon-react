@@ -1,7 +1,14 @@
 import './activities.css';
+import Cidadania from './Cidadania';
+import Cultura from './Cultura';
+import Desporto from './Desporto';
+import Empreendedorismo from './Empreendedorismo';
+import Emprego from './Emprego';
+import Formacao from './Formacao';  
 
 const Activities = () => {
     return (
+		<>
 		<section className="p-5">	
 			<div className="container">
 				<h2 className="text-center">Areas of activity</h2>
@@ -22,7 +29,7 @@ const Activities = () => {
 									Our trainings aim at the technical-professional growth of our members. We prepare a professional 
 									development plan for you in order to maximize your potential and income.
 								</p>
-								<a href="ola.html" className="btn btn-info">Read more</a>
+								<a href="ola.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#formacao">Read more</a>
 							</div>
 						</div>
 					</div>
@@ -41,8 +48,8 @@ const Activities = () => {
 									program will help you to identify your area of activity, prepare your business plan, manage 
 									your business and seek funding.
 								</p>
-								<a href="ola.html" className="btn btn-secondary">Read more</a>
-							</div>
+								<a href="ola.html" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#empreendedorismo">Read more</a>
+							</div> 
 						</div>
 					</div>
 
@@ -59,7 +66,7 @@ const Activities = () => {
 									Our job opportunities database is available to all our members. In addition, we will offer several types of 
 									specific training to help you prepare for interviews and negotiate working conditions.
 								</p>
-								<a href="ola.html" className="btn btn-info">Read more</a>
+								<a href="ola.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#emprego">Read more</a>
 							</div>
 						</div>
 					</div>
@@ -78,7 +85,7 @@ const Activities = () => {
 									anyone, regardless of its origin. That's our bet. We intend to promote the São Tomé and Príncipe cultural identity.
 							
 								</p>
-								<a href="ola.html" className="btn btn-info">Read more</a>
+								<a href="ola.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#cultura">Read more</a>
 							</div>
 						</div>
 					</div>
@@ -90,14 +97,14 @@ const Activities = () => {
 									<i className="bi bi-trophy"></i>
 								</div>
 								<h3 className="card-title mb-3 text-dark">
-									Sport
+									Sports
 								</h3>
 								<p className="card-text">
 									We intend to create sporting tournaments/championships at local, regional, national and 
 									international level. In addition to the benefits of intergenerational interaction, we will also 
 									be discovering and promoting new values and talents.
 								</p>
-								<a href="ola.html" className="btn btn-secondary">Read more</a>
+								<a href="ola.html" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#desporto">Read more</a>
 							</div>
 						</div>
 					</div>
@@ -116,7 +123,7 @@ const Activities = () => {
 									principles and values, peaceful, orderly and healthy coexistence among citizens, active 
 									participation in actions for the development of our community.
 								</p>
-								<a href="ola.html" className="btn btn-info">Read more</a>
+								<a href="ola.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#cidadania">Read more</a>
 								<div id="colaborar" className="marcador_escondido"></div>
 							</div>
 						</div>
@@ -125,6 +132,13 @@ const Activities = () => {
 				</div>
 			</div>
 		</section>
+		<Formacao/>
+		<Empreendedorismo/>
+		<Emprego/>
+		<Cultura/>
+		<Desporto/>
+		<Cidadania/>
+		</>
     );
 }
 

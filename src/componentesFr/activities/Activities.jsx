@@ -1,8 +1,15 @@
 import './activities.css';
+import Cidadania from './Cidadania';
+import Cultura from './Cultura';
+import Desporto from './Desporto';
+import Empreendedorismo from './Empreendedorismo';
+import Emprego from './Emprego';
+import Formacao from './Formacao'; 
 
 const Activities = () => {
     return (
-        <section  className="p-5">
+        <>
+		<section  className="p-5">
 			<div className="container">
 				<h2 className="text-center">Domaines d'activité</h2>
 				<hr/>
@@ -23,7 +30,7 @@ const Activities = () => {
 									Nous préparons pour vous un plan de développement professionnel afin de maximiser votre 
 									potentiel et vos revenus.
 								</p>
-								<a href="ola.html" className="btn btn-info">Lire la suite</a>
+								<a href="ola.html" className="btn btn-info"  data-bs-toggle="modal" data-bs-target="#formacao">Lire la suite</a>
 							</div>
 						</div>
 					</div>
@@ -42,7 +49,7 @@ const Activities = () => {
 									d'entrepreneuriat vous aidera à identifier votre domaine d'activité, préparer votre business 
 									plan, gérer votre entreprise et rechercher des financements. 
 								</p>
-								<a href="ola.html" className="btn btn-secondary">Lire la suite</a>
+								<a href="ola.html" className="btn btn-secondary"  data-bs-toggle="modal" data-bs-target="#empreendedorismo">Lire la suite</a>
 							</div>
 						</div>
 					</div>
@@ -61,7 +68,7 @@ const Activities = () => {
 									formations spécifiques pour vous aider à vous préparer aux entretiens et à négocier les conditions de 
 									travail.
 								</p>
-								<a href="ola.html" className="btn btn-info">Lire la suite</a>
+								<a href="ola.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#emprego">Lire la suite</a>
 							</div>
 						</div>
 					</div>
@@ -80,7 +87,7 @@ const Activities = () => {
 									pour être consommé par n'importe qui, quelle que soit son origine.  
 									Nous avons l'intention de valoriser et de promouvoir l'identité culturelle de São Tomé et Príncipe à travers le monde.
 								</p>
-								<a href="ola.html" className="btn btn-info">Lire la suite</a>
+								<a href="ola.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#cultura">Lire la suite</a>
 							</div>
 						</div>
 					</div>
@@ -99,7 +106,7 @@ const Activities = () => {
 									national et international. En plus des bienfaits de l'interaction intergénérationnelle, nous 
 									découvrirons et promouvrons également de nouvelles valeurs et de nouveaux talents.
 								</p>
-								<a href="ola.html" className="btn btn-secondary">Lire la suite</a>
+								<a href="ola.html" className="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#desporto">Lire la suite</a>
 							</div>
 						</div>
 					</div>
@@ -119,7 +126,7 @@ const Activities = () => {
 									saine entre les citoyens, de participation active à des actions pour le développement de notre 
 									communauté.
 								</p>
-								<a href="ola.html" className="btn btn-info">Lire la suite</a>
+								<a href="ola.html" className="btn btn-info" data-bs-toggle="modal" data-bs-target="#cidadania">Lire la suite</a>
 							</div>
 						</div>
 					</div>
@@ -127,7 +134,13 @@ const Activities = () => {
 				</div>
 			</div>
 		</section>
-
+		<Formacao/>
+		<Empreendedorismo/>
+		<Emprego/>
+		<Cultura/>
+		<Desporto/>
+		<Cidadania/>
+		</>
     );
 }
 
