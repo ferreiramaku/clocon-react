@@ -5,9 +5,9 @@ const Navbar = () => {
     return (
 		<nav className="navbar navbar-expand-lg bg-dark navbar-dark py-3 fixed-top nav-hr">
 			<div className="container">
-				<a href="index-fr.html" className="navbar-brand">
-					<img src="images/Logo clóçon-branco_3.png" className="logo" alt=""/>
-				</a>
+				<Link to="/fr" className="navbar-brand">
+					<img src="images/Logo clóçon-branco_3.png" className="logo" alt="Logo"/>
+				</Link>
 				<button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navmenu">
 					<span className="navbar-toggler-icon"></span>
 				</button>
