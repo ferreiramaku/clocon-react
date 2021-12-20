@@ -5,7 +5,6 @@ import Newsletter from "../../componentesFr/newsletter/Newsletter";
 import Activities from "../../componentesFr/activities/Activities";
 import Colaborate from "../../componentesFr/colaborate/Colaborate";
 import Faq from "../../componentesFr/faq/Faq";
-import Testimonials from "../../componentesFr/testimonials/Testimonials";
 import Contacts from "../../componentesFr/contacts/Contacts";
 import Footer from "../../componentesFr/footer/Footer";
 import WhoweareFr from '../../componentesFr/whoweare/WhoweareFr';
@@ -20,7 +19,6 @@ function HomeFr() {
         <Activities/>
         <Colaborate/>
         <Faq/>
-        <Testimonials/>
         <Contacts/>
         <Footer/>
       </div>

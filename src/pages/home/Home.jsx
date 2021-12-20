@@ -6,7 +6,6 @@ import Whoweare from "../../componentes/whoweare/Whoweare";
 import Activities from "../../componentes/activities/Activities";
 import Colaborate from "../../componentes/colaborate/Colaborate";
 import Faq from "../../componentes/faq/Faq";
-import Testimonials from "../../componentes/testimonials/Testimonials";
 import Contacts from "../../componentes/contacts/Contacts";
 import Footer from "../../componentes/footer/Footer";
 
@@ -20,7 +19,6 @@ function Home() {
         <Activities/>
         <Colaborate/>
         <Faq/>
-        <Testimonials/>
         <Contacts/>
         <Footer/>
       </div>
